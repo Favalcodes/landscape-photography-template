@@ -3,7 +3,7 @@
         height: 500px;
         width:100%;
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
          
 }
 
@@ -25,6 +25,7 @@ h4 {
 
 h6 {
     position: relative;
+    font-family: "Raleway";
     font-size: 15px;
     z-index: 1;
     overflow: hidden;
@@ -88,9 +89,20 @@ h6:before {
   }
 
   .flex-photo .lines {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border: 1px solid black;
+  }
+
+  .flex-photo .rounded-icons {
+    position: absolute;
+    left:0px;
+    bottom: 20px;
+  }
+  .flex-photo .rounded-icons-two {
+    position: absolute;
+    top: -50px;
+    right: 30px;
   }
 
   .flex-photo {
@@ -98,11 +110,11 @@ h6:before {
   }
   
   .photo img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    left: 90px;
-    bottom: 70px;
+    left: 50px;
+    bottom: 110px;
   }
 
  .container {
@@ -125,6 +137,8 @@ h6:before {
  .text {
      text-align: left;
      font-size: 14px;
+     position: relative;
+     font-family: "Roboto";
  }
 
  .bottom {
@@ -225,6 +239,10 @@ h6:before {
     display: flex;
     margin-bottom: 0px;
   }
+
+  .contact p {
+    font-family: "Lato";
+  }
   
   .contact .grey-color {
     width: 50%;
@@ -252,8 +270,8 @@ h6:before {
     width: 50%;
     text-align: center;
     border: none;
-    border-radius: 10px;
     margin-bottom: 50px;
+    border-radius: 0px;
   }
   
   textarea {
@@ -262,10 +280,198 @@ h6:before {
     height: 120px;
   }
 
-
-  /* @media(max-width: 768px){
-      .photo .text {
-          margin-top: 50px;
-      }
+  .round{
+    padding: 50px
   }
-  */
+
+   @media(max-width: 480px){
+     
+
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 10px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 150px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+
+   }
+  
+   @media(max-width: 800px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 150px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+
+    .photo {
+      margin: 0 auto;
+      display: block;
+      width: 80%
+    }
+    .photo .text {
+      margin-top: 30px;
+    }
+
+
+   }
+  
+   @media(max-width: 800px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 150px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+
+   }
+  
+   @media(max-width: 800px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 150px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+
+   }
+   @media(max-width: 750px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 150px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+
+   }
+  
+   @media(max-width: 750px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 50px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 30px;
+    }
+
+
+   }
+   @media(max-width: 785px){
+    .flex-photo .rounded-icons {
+      position: absolute;
+      left:0px;
+      bottom: 20px;
+    }
+    .flex-photo .rounded-icons-two {
+      position: absolute;
+      top: -50px;
+      right: 190px;
+    }
+  
+    .flex-photo {
+      position: relative;
+    }
+    
+    .photo img {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      left: 50px;
+      bottom: 70px;
+    }
+
+
+   }
+  
